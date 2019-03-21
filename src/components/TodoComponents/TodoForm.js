@@ -3,7 +3,7 @@ import React from 'react'
 const TodoForm = (props) => {
 return (
     <form onSubmit={props.funTime}>
-        <input onChange={props.notFun}></input>
+        <input onChange={props.notFunTime}></input>
         <button type="sumbit">Add</button>
     </form>
  )
